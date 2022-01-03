@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  rootDir: './src',
+  rootDir: __dirname,
   clearMocks: true,
   verbose: true,
   globals: {
@@ -20,11 +20,11 @@ module.exports = {
     path.join(__dirname, 'storybook-static'),
   ],
   testMatch: [
-    path.join(__dirname, 'src/**/*.test.ts'),
-    path.join(__dirname, 'src/**/*.test.tsx'),
+    path.join(__dirname, 'tests/**/*.test.ts'),
+    path.join(__dirname, 'tests/**/*.test.tsx'),
   ],
   moduleDirectories: ['node_modules', 'src'],
   coverageReporters: ['json', 'text', 'lcov', 'clover'],
   moduleFileExtensions: ['js', 'json', 'jsx', 'ts', 'tsx', 'node'],
-  setupFilesAfterEnv: ['<rootDir>/setupTests.ts'],
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
 };

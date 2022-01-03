@@ -1,5 +1,5 @@
 import React from 'react';
-import Header, { HeaderProps } from './Header';
+import Header, { HeaderProps } from '../../src/components/Header';
 
 const story = {
   title: 'Components/Header',

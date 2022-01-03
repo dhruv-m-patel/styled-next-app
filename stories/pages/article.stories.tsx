@@ -1,5 +1,5 @@
 import React from 'react';
-import Article from './index';
+import Article from '../../src/pages/articles/[id]/index';
 
 const story = { title: 'Pages/Article', component: Article };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Article, { ArticleProps } from './Article';
+import Article, { ArticleProps } from '../../src/components/Article';
 
 const article = {
   userId: 1,

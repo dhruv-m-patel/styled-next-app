@@ -1,6 +1,6 @@
 import React from 'react';
 import type { NextPage } from 'next';
-import Header from '../../components/Header';
+import Header from '../components/Header';
 
 const InternalServerError: NextPage = () => (
   <React.Fragment>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './Nav';
+import Nav from '../../src/components/Nav';
 
 const story = {
   title: 'Components/Nav',

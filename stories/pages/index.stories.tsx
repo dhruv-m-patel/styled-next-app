@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './index';
+import Home from '../../src/pages/index';
 
 const story = { title: 'Pages/Home', component: Home };
 

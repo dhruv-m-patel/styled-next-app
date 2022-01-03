@@ -4,9 +4,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build-storybook": "build-storybook -s public/ --no-dll",
+    "build-storybook": "build-storybook -s public/",
     "start": "next start",
-    "storybook": "start-storybook -p 6001 --no-dll",
+    "storybook": "start-storybook -p 6001",
     "lint": "next lint",
     "prettier:format": "prettier --write .",
     "prettier:verify": "prettier --check .",
@@ -21,6 +21,7 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "6.4.9",
     "@storybook/addon-actions": "6.4.9",
     "@storybook/addon-essentials": "6.4.9",
     "@storybook/addon-links": "6.4.9",

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import InternalServerError from './index';
+import InternalServerError from '../../src/pages/500';
 
 describe('Errors/500', () => {
   test('it should render', () => {

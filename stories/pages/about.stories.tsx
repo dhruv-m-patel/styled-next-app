@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '.';
+import About from '../../src/pages/about';
 
 const story = { title: 'Pages/About', component: About };
 
