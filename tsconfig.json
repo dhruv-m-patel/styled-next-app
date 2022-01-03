@@ -3,10 +3,7 @@
     "target": "esnext",
     "module": "esnext",
     "jsx": "preserve",
-    "lib": [
-      "dom",
-      "es2017"
-    ],
+    "lib": ["dom", "es2017"],
     "moduleResolution": "node",
     "allowJs": true,
     "noEmit": true,
@@ -23,17 +20,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "types": [
-      "node",
-      "jest",
-      "@types/jest",
-      "@types/jest-dom",
-      "@testing-library/react",
-      "@testing-library/jest-dom"
-    ]
+    "typeRoots": ["node_modules/@types"]
   },
   "exclude": [
     "node_modules",
@@ -41,10 +28,5 @@
     "**/*.test.ts",
     "**/*.test.tsx"
   ],
-  "include": [
-    "./src",
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ]
+  "include": ["./src", "next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }

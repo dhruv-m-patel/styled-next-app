@@ -1,5 +1,5 @@
 import React from 'react';
-import NotFound from './404';
+import NotFound from '.';
 
 const story = { title: 'Pages/404', component: NotFound };
 

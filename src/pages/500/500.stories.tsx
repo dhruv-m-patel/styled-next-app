@@ -1,5 +1,5 @@
 import React from 'react';
-import InternalServerError from './500';
+import InternalServerError from '.';
 
 const story = { title: 'Pages/500', component: InternalServerError };
 
