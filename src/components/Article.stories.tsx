@@ -20,10 +20,7 @@ const Template = (args: Omit<ArticleProps, 'item'>) => (
 
 export const Default = Template.bind({});
 Default.args = {
-  link: {
-    default: false,
-    type: 'boolean',
-  },
+  link: false,
 };
 
 export default story;
