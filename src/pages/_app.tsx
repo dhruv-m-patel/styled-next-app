@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import type { AppProps } from 'next/app';
 import Layout from '../components/Layout';
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
   html,
   body {
     padding: 0;
