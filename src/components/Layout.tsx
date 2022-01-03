@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Nav from './Nav';
 import Meta from './Meta';
 
 const Container = styled.section`
@@ -26,7 +25,6 @@ const Main = styled.main`
 const Layout = ({ children }: { children: React.ReactNode | undefined }) => (
   <React.Fragment>
     <Meta />
-    <Nav />
     <Container>
       <Main>{children}</Main>
     </Container>

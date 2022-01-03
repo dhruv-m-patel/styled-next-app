@@ -11,7 +11,7 @@ const Title = styled.h1`
   text-align: center;
 `;
 
-interface HeaderProps {
+export interface HeaderProps {
   title: string;
 }
 

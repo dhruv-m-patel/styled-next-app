@@ -2,6 +2,7 @@ import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import type { AppProps } from 'next/app';
 import Layout from '../components/Layout';
+import Nav from '../components/Nav';
 
 export const GlobalStyle = createGlobalStyle`
   html,
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <React.Fragment>
       <GlobalStyle />
+      <Nav />
       <Layout>
         <Component {...pageProps} />
       </Layout>

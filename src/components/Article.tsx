@@ -40,7 +40,7 @@ const StyledLink = styled.a`
   }
 `;
 
-interface ArticleProps {
+export interface ArticleProps {
   item: ArticleType;
   link?: boolean;
 }
