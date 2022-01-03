@@ -10,7 +10,8 @@
     "lint": "next lint",
     "prettier:format": "prettier --write .",
     "prettier:verify": "prettier --check .",
-    "test": "jest --runInBand --passWithNoTests"
+    "test": "jest --runInBand",
+    "test:ci": "jest --silent --ci --coverage --coverageReporters=text --coverageReporters=text-summary"
   },
   "dependencies": {
     "clsx": "^1.1.1",
