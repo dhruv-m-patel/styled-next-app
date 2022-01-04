@@ -11,9 +11,7 @@ export const decorators = [
   (Story) => (
     <MemoryRouterProvider>
       <GlobalStyle />
-      <Layout>
-        <Story />
-      </Layout>
+      <Story />
     </MemoryRouterProvider>
   ),
 ];
